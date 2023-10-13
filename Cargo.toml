@@ -13,11 +13,11 @@ futures = { version = "0.3", default-features = false }
 ring = { version = "0.16", default-features = false }
 rustls = { version = "0.21", default-features = false }
 tokio = { version = "1", default-features = false }
-tokio-postgres = { git = "https://github.com/neondatabase/rust-postgres/", branch = "neon", default-features = false}
+tokio-postgres = { git = "https://github.com/grafbase/rust-postgres/", branch = "grafbase", default-features = false}
 tokio-rustls = { version = "0.24", default-features = false }
 
 [dev-dependencies]
 env_logger = { version = "0.8", default-features = false }
 tokio = { version = "1", features = ["macros", "rt"] }
-tokio-postgres = { git = "https://github.com/neondatabase/rust-postgres/", branch = "neon" }
+tokio-postgres = { git = "https://github.com/grafbase/rust-postgres/", branch = "grafbase" }
 rustls = { version = "0.21", features = ["dangerous_configuration"] }
